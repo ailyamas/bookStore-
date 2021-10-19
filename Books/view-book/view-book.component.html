@@ -1,0 +1,8 @@
+<div class="row">
+    <div class="col-xs-12">
+        <img style="max-width:400px" *ngIf="book.photos" [src]="book.photos">
+        <h1>{{book.title}}</h1>
+        <h3><strong>{{book.author}}</strong></h3>
+        <button type="submit" class="btn btn-success" (click)="onBack()">back</button>
+    </div>
+</div>
